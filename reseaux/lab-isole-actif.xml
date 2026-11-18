@@ -1,0 +1,12 @@
+<network connections='2'>
+  <name>lab-isole</name>
+  <uuid>dce99b23-bb44-4e1b-a1eb-b4f53392c8ed</uuid>
+  <bridge name='virbr1' stp='on' delay='0'/>
+  <mac address='52:54:00:b3:e3:78'/>
+  <ip address='172.16.50.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='172.16.50.100' end='172.16.50.200'/>
+    </dhcp>
+  </ip>
+</network>
+

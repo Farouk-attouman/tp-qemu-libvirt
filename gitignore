@@ -1,0 +1,15 @@
+# Images disque et ISO (volumineux, ne jamais committer)
+*.qcow2
+*.img
+*.iso
+*.vmdk
+*.7z
+*.zip
+
+# Cles privees SSH
+id_ed25519
+id_rsa
+*.pem
+
+# Divers
+*.log
